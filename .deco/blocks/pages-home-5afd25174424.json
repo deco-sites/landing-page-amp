@@ -8,7 +8,7 @@
         "links": [
           {
             "label": "Home",
-            "url": "#home"
+            "url": "#Hero"
           },
           {
             "label": "Eventos",
@@ -33,10 +33,17 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Empoderando <span style=\"color: #c2519e\">Mulheres</span>, Transformando <span style=\"color: #ff2e89\">Vidas</span></p>",
-      "cta": [],
+      "title": "<p>Empoderando <strong><span style=\"color: #f02dc6\">Mulheres</span></strong>, Transformando <strong><span style=\"color: #ce1c7b\">Vidas</span></strong></p>",
+      "cta": [
+        {
+          "id": "doar",
+          "text": "Ajude essa causa >",
+          "href": "#doe",
+          "outline": false
+        }
+      ],
       "description": "Na AMP, acreditamos no poder da solidariedade e do apoio mútuo. Nossos serviços são dedicados a fornecer recursos essenciais, educação e saúde para mulheres em situação de vulnerabilidade. Juntas, criamos um ambiente onde cada mulher tem a chance de prosperar e transformar sua própria vida e a de sua comunidade.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/d28460ca-4b17-4141-beec-b5eaef450f14"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/2ad0136d-a6a0-49c8-8903-cb565c1fc0b1"
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
@@ -90,6 +97,7 @@
     },
     {
       "__resolveType": "site/sections/Logos.tsx",
+      "title": "Parceiros da AMP",
       "logos": [
         {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/31ae6ade-7ccd-4c95-b3fb-cbf66654ee45"
@@ -106,48 +114,66 @@
         {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/d571c070-664e-4bd1-bb47-368ee509657f"
         }
-      ],
-      "title": "Parceiros da AMP"
+      ]
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/914e27ac-e1eb-4748-893e-6c3a5190292f",
-      "title": "Lorem ipsum dolor",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius semper ullamcorper. Curabitur pulvinar molestie interdum. Nam pretium arcu eget lorem porta rutrum. \n\nNam delivery model pretium arcu eget lorem porta rutrum. Mauris at nibh eget mauris posuere tincidunt.",
-      "disableSpacing": {
-        "top": false
-      },
-      "cta": []
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/7726b379-e0ff-4d53-a874-c7278e24a451",
-      "title": "Lorem ipsum dolor",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius semper ullamcorper. Curabitur pulvinar molestie interdum. Nam pretium arcu eget lorem porta rutrum. \n\n\n\"Fusce nec erat varius, ornare orci in, ultricies orci. Proin in libero a diam dictum convallis. Duis ornare erat faucibus, rutrum velit vitae, elementum magna.\"",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/77f18156-83e5-4079-94db-644c0bc08d86",
+      "title": "Entrega de cestas basicas e absorventes",
+      "description": "Entregar cestas básicas e absorventes no pavilhão é uma atividade de extrema importância social, proporcionando suporte essencial para membros da comunidade que enfrentam dificuldades econômicas. Essa iniciativa não apenas ajuda a garantir alimentação básica e dignidade menstrual para aqueles que mais precisam, mas também promove um senso de solidariedade e apoio mútuo dentro do pavilhão. Além de aliviar necessidades imediatas, essa ação contribui para fortalecer os laços comunitários e promover um ambiente mais inclusivo e empático para todos os moradores.\n\n\n\n\n\n\n",
       "cta": [],
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/914e27ac-e1eb-4748-893e-6c3a5190292f",
-      "title": "Lorem ipsum dolor",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius semper ullamcorper. Curabitur pulvinar molestie interdum. Nam pretium arcu eget lorem porta rutrum. \n\nNam delivery model pretium arcu eget lorem porta rutrum. Mauris at nibh eget mauris posuere tincidunt.",
-      "cta": [],
+      "tagline": "1.",
       "disableSpacing": {
         "top": false
       }
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/f2c8ca99-4aa9-496a-b209-4ff5e5b1aad1",
+      "title": "Caminhada de 8 de março",
+      "description": "A caminhada de 8 de março contra a desigualdade de gênero e o combate à pobreza é uma forma poderosa de expressar solidariedade e promover mudanças sociais significativas. Esses eventos não apenas destacam a importância da igualdade de gênero e o empoderamento das mulheres, mas também levantam a voz contra as injustiças socioeconômicas que perpetuam a pobreza e a exclusão.",
+      "cta": [],
+      "tagline": "2.",
+      "placement": "right"
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/914e27ac-e1eb-4748-893e-6c3a5190292f",
+      "title": "Entrega de certificados ",
+      "description": "A entrega de certificados do curso de massoterapia para mulheres em comunidades não apenas reconhece suas conquistas individuais, mas também representa um marco significativo no empoderamento e na capacitação dessas mulheres. Esse gesto não só valoriza suas habilidades recém-adquiridas, mas também fortalece sua autoconfiança e autoestima. Além disso, ao oferecer oportunidades de formação profissional, contribui para a inclusão social e econômica dessas mulheres, promovendo um impacto positivo e duradouro em suas vidas e comunidades.",
+      "cta": [],
+      "disableSpacing": {
+        "top": false
+      },
+      "tagline": "3."
     },
     {
-      "__resolveType": "site/sections/TwoImagesSection.tsx",
-      "imageRight": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/617d4d2a-2404-4e3c-b5f7-b823f4aa15dc",
-      "title": "test",
-      "imageLeft": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/c079ef98-d9c4-4f69-8281-631ffdebcc65"
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/5aa6b9bc-ce85-4ab9-9b3c-6328aaa4a61f",
+      "title": "Ajude essa causa",
+      "description": "Você pode fazer a diferença hoje mesmo! Junte-se a nós na luta contra a desigualdade de gênero e a fome. Sua doação não apenas alimenta famílias vulneráveis, mas também fortalece comunidades inteiras, promovendo oportunidades iguais para todos. Com cada contribuição, estamos mais próximos de um mundo onde cada indivíduo, independentemente do gênero, possa prosperar. Sua generosidade é a chave para transformar vidas e construir um futuro mais justo e inclusivo para todos. Faça parte dessa mudança hoje",
+      "cta": [],
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [
+        {
+          "network": "Instagram",
+          "href": "mulheresdeparaisoplis"
+        }
+      ],
+      "subscribe": {
+        "instructions": "<p>Seu apoio é importante</p>",
+        "title": "Seja um parceiro",
+        "description": "deixe seu email que entraremos em contato"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/1e45a9f9-55c5-41f3-b8db-e23df05bd7ea",
+        "alt": "logo"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
