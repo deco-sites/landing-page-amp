@@ -109,11 +109,10 @@ function SliderItem(
   return (
     <div
       id={id}
-      class="relative overflow-y-hidden w-full min-h-[292px]"
+      class="relative overflow-y-hidden w-full lg:w-2/3 min-h-[292px]"
     >
-      <div class="flex flex-col justify-center gap-16 p-8 border border-base-content rounded-2xl h-full max-w-[600px]">
-        <p class="text-lg">{content?.description}</p>
-        <div class="flex items-center gap-5">
+      <div class="flex flex-col justify-center gap-10 p-8 bg-white border border-pink-500 rounded-lg overflow-hidden shadow-xl rounded-2xl h-full max-w-[600px]">
+      <div class="flex items-center gap-5">
           <Image
             class="object-cover w-14 h-14 rounded-full"
             alt={content?.alt}
@@ -121,10 +120,14 @@ function SliderItem(
             width={56}
             height={56}
           />
-          <div class="flex flex-col">
-            <p class="font-semibold text-base">{content?.name}</p>
-            <p class="text-base">{content?.position}</p>
-          </div>
+        </div>
+
+        <div class="flex flex-col">
+        <p class="text-3xl font-bold bg-gradient-to-r from-[#FAC674] to-[#F71970] inline-block text-transparent bg-clip-text">{content?.name}</p>
+
+        <p class="text-lg">{content?.description}</p>
+        
+            {/* <p class="text-base">{content?.position}</p> */}
         </div>
       </div>
     </div>
@@ -197,13 +200,13 @@ function Carousel(props: Props) {
   return (
     <div
       id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
+      class="min-h-min flex flex-col lg:container md:max-w-full bg-[#FFFBF4] lg:mx-auto mx-4 py-12 lg:py-28"
     >
-      <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
+      <h2 class="text-4xl leading-snug lg:w-full pb-12 lg:pb-16 text-center font-bold">
         {title}
       </h2>
       <Slider
-        class="carousel carousel-center w-full col-span-full row-span-full gap-6"
+        class="carousel carousel-center w-full col-span-full row-span-full gap-1"
         rootId={id}
         interval={interval && interval * 1e3}
         infinite

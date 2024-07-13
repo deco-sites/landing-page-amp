@@ -1,42 +1,157 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Home",
+            "url": "#home"
+          },
+          {
+            "label": "Eventos",
+            "url": "#eventos"
+          },
+          {
+            "label": "Sobre Nós",
+            "url": "#sobre"
+          }
+        ],
+        "buttons": [
+          {
+            "id": "doar",
+            "href": "#doar",
+            "text": "Doe Agora"
+          }
+        ]
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/e8897207-f086-4e24-8bd3-d95a9820276d"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Empoderando <span style=\"color: #c2519e\">Mulheres</span>, Transformando <span style=\"color: #ff2e89\">Vidas</span></p>",
+      "cta": [],
+      "description": "Na AMP, acreditamos no poder da solidariedade e do apoio mútuo. Nossos serviços são dedicados a fornecer recursos essenciais, educação e saúde para mulheres em situação de vulnerabilidade. Juntas, criamos um ambiente onde cada mulher tem a chance de prosperar e transformar sua própria vida e a de sua comunidade.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/d28460ca-4b17-4141-beec-b5eaef450f14"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "Serviços da AMP",
+      "arrows": true,
+      "slides": [
+        {
+          "content": {
+            "description": "Distribuímos cestas básicas para mulheres em situação de vulnerabilidade, garantindo alimento e dignidade para quem mais precisa.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/149a88b2-c856-4660-90ed-b6b215f12659",
+            "name": "Distribuição de Cestas Básicas"
+          }
+        },
+        {
+          "content": {
+            "description": "Em nossa sede, disponibilizamos uma máquina que fornece absorventes gratuitamente, ajudando mulheres a manterem sua higiene e saúde com dignidade.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/b884ca63-3799-4c35-a64e-b703f16be2dd",
+            "name": "Distribuição de Absorventes"
+          }
+        },
+        {
+          "content": {
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/799b5205-89e1-4ada-a1fb-d3cd7b88035d",
+            "description": "Em parceria com a Carreta da Mamografia, proporcionamos acesso ao exame preventivo do câncer de mama para mulheres da comunidade, promovendo saúde e prevenção.",
+            "name": "Combate ao Câncer de Mama"
+          }
+        },
+        {
+          "content": {
+            "name": "Cursos",
+            "description": "Oferecemos cursos especializados para mulheres de baixa renda, capacitando-as e abrindo portas para novas oportunidades profissionais.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/8bd3f2c8-0032-46d7-a946-da65b245a840"
+          }
+        }
+      ],
+      "dots": false
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p><span style=\"font-size: 29pt\">Solidariedade em Ação: Alimentando </span><strong><span style=\"font-size: 29pt\">Esperança e Dignidade</span></strong></p>",
+      "cta": [
+        {
+          "id": "doar",
+          "text": "Ajude essa causa >",
+          "href": "doe",
+          "outline": true
+        }
+      ],
+      "description": "Na AMP, não apenas distribuímos cestas básicas e absorventes; oferecemos dignidade e esperança para mulheres que enfrentam desafios diários. Através de nossas iniciativas, garantimos que todas tenham acesso aos recursos essenciais para viver com segurança e respeito. Nosso compromisso é transformar a solidariedade em ações concretas que impactam vidas e fortalecem nossa comunidade.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/c079ef98-d9c4-4f69-8281-631ffdebcc65"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/31ae6ade-7ccd-4c95-b3fb-cbf66654ee45"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/5381d479-ede3-4f10-a047-e9d463dda759"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/6ac3042c-2668-424c-b1d5-689717849e80"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/617d4d2a-2404-4e3c-b5f7-b823f4aa15dc"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/d571c070-664e-4bd1-bb47-368ee509657f"
+        }
+      ],
+      "title": "Parceiros da AMP"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/914e27ac-e1eb-4748-893e-6c3a5190292f",
+      "title": "Lorem ipsum dolor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius semper ullamcorper. Curabitur pulvinar molestie interdum. Nam pretium arcu eget lorem porta rutrum. \n\nNam delivery model pretium arcu eget lorem porta rutrum. Mauris at nibh eget mauris posuere tincidunt.",
+      "disableSpacing": {
+        "top": false
+      },
+      "cta": []
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/7726b379-e0ff-4d53-a874-c7278e24a451",
+      "title": "Lorem ipsum dolor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius semper ullamcorper. Curabitur pulvinar molestie interdum. Nam pretium arcu eget lorem porta rutrum. \n\n\n\"Fusce nec erat varius, ornare orci in, ultricies orci. Proin in libero a diam dictum convallis. Duis ornare erat faucibus, rutrum velit vitae, elementum magna.\"",
+      "cta": [],
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/914e27ac-e1eb-4748-893e-6c3a5190292f",
+      "title": "Lorem ipsum dolor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius semper ullamcorper. Curabitur pulvinar molestie interdum. Nam pretium arcu eget lorem porta rutrum. \n\nNam delivery model pretium arcu eget lorem porta rutrum. Mauris at nibh eget mauris posuere tincidunt.",
+      "cta": [],
+      "disableSpacing": {
+        "top": false
+      }
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "site/sections/TwoImagesSection.tsx",
+      "imageRight": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/617d4d2a-2404-4e3c-b5f7-b823f4aa15dc",
+      "title": "test",
+      "imageLeft": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11606/c079ef98-d9c4-4f69-8281-631ffdebcc65"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
